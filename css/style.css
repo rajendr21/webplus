@@ -1,0 +1,85 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, Sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color:azure ;
+}
+/* Global*/
+header{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+/* header*/
+header{
+    background: darkgrey;
+    color: white;
+    padding:0;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: orange 3px solid;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header nav{
+    float:right;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+header .current a{
+    color: orange;
+    font-weight: bold;
+}
+header a:hover{
+    color: grey;
+    font-weight: bold;
+}
+/*showcase*/
+#showcase{
+    min-height: 400px;
+    background: url('../images/car\ care\ garage.jpeg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+#showcase h1{
+    margin-top: 50px;
+    font-size: 55px;
+    margin-bottom: 10px;
+    color:orangered;
+}
+.container h1 span{
+    color: orange;
+}
+#showcase h2{
+    font-size: 30px;
+    color:white;
+}
+/*boxes*/
+#boxes{
+    margin-top: 20px;
+}
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 20px;
+}
+#boxes .box img{
+    width: 100px;
+}
+
